@@ -28,4 +28,5 @@ API ini memiliki fungsi _query_ untuk menyaring informasi. _Query_ yang tersedia
 | `tawal`   | untuk mencari transaksi yang dibuat setelah tanggal tertentu     | format: 2023-09-23         |
 | `takhir`  | untuk mencari transaksi yang dibuat sebelum tanggal tertentu     | format: 2023-09-23         |
 
+- contoh query: `<Alamat API>`?tahun=2023&cari=seragam&hmax=500000&takhir=2023-09-23
 - jumlah data = 1000 transaksi (generate antara tahun 2020 - 2023)

@@ -7,6 +7,7 @@ Klik link 👉 [demo API](https://bendaharaapi-392411.as.r.appspot.com/api/pengg
 ## Tech stack
 
 - NodeJS
+- Express
 - GCP
 - JWT auth
 - MongoDB
@@ -15,18 +16,17 @@ Klik link 👉 [demo API](https://bendaharaapi-392411.as.r.appspot.com/api/pengg
 
 API ini memiliki fungsi _query_ untuk menyaring informasi. _Query_ yang tersedia antara lain:
 
-| _query_   | keterangan                                                       | nilai                      |
-| --------- | ---------------------------------------------------------------- | -------------------------- |
-| `tahun`   | untuk menyaring transaksi berdasarkan tahun                      | default: `Date.now().year` |
-| `halaman` | untuk membagi jumlah transaksi yang ditampilkan menjadi halaman  | default: 1                 |
-| `cari`    | untuk mencari transaksi berdasarkan item                         | format: 'seragam'          |
-| `hmax`    | untuk mencari transaksi dengan item yang memiliki harga < `hmax` | format: 234500             |
-| `hmin`    | untuk mencari transaksi dengan item yang memiliki harga > `hmim` | format: 234500             |
-| `unit`    | untuk mencari transaksi berdasarkan unit lembaga                 | format: smp                |
-| `tgl`     | untuk mencari transaksi yang dibuat pada tanggal tertentu        | format:                    |
-| `bulan`   | untuk mencari transaksi yang dibuat pada bulan tertentu          | format: 09                 |
-| `tawal`   | untuk mencari transaksi yang dibuat setelah tanggal tertentu     | format: 2023-09-23         |
-| `takhir`  | untuk mencari transaksi yang dibuat sebelum tanggal tertentu     | format: 2023-09-23         |
+| _query_   | keterangan                                                       | nilai                         |
+| --------- | ---------------------------------------------------------------- | ----------------------------- |
+| `tahun`   | untuk menyaring transaksi berdasarkan tahun                      | _default_ : `Date.now().year` |
+| `halaman` | untuk membagi jumlah transaksi yang ditampilkan menjadi halaman  | _default_ : 1                 |
+| `cari`    | untuk mencari transaksi berdasarkan item                         | _format_ : seragam            |
+| `hmax`    | untuk mencari transaksi dengan item yang memiliki harga < `hmax` | _format_ : 234500             |
+| `hmin`    | untuk mencari transaksi dengan item yang memiliki harga > `hmim` | _format_ : 234500             |
+| `unit`    | untuk mencari transaksi berdasarkan unit lembaga                 | _format_ : smp                |
+| `tgl`     | untuk mencari transaksi yang dibuat pada tanggal tertentu        | _format_ : 2023-09-23         |
+| `bulan`   | untuk mencari transaksi yang dibuat pada bulan tertentu          | _format_ : 09                 |
+| `tawal`   | untuk mencari transaksi yang dibuat setelah tanggal tertentu     | _format_: 2023-09-23          |
+| `takhir`  | untuk mencari transaksi yang dibuat sebelum tanggal tertentu     | _format_: 2023-09-23          |
 
-- contoh query: `<Alamat API>`_?tahun=2023&cari=seragam&hmax=500000&takhir=2023-09-23_
-- jumlah data = 1000 transaksi (generate antara tahun 2020 - 2023)
+- jumlah data = 1000 transaksi (rentang waktu antara 2020 - 2023)

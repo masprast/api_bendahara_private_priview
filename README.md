@@ -25,8 +25,8 @@ API ini memiliki fungsi _query_ untuk menyaring informasi. _Query_ yang tersedia
 | `hmin`    | untuk mencari transaksi dengan item yang memiliki harga > `hmim` | _format_ : 234500             |
 | `unit`    | untuk mencari transaksi berdasarkan unit lembaga                 | _format_ : smp                |
 | `tgl`     | untuk mencari transaksi yang dibuat pada tanggal tertentu        | _format_ : 2023-09-23         |
-| `bulan`   | untuk mencari transaksi yang dibuat pada bulan tertentu          | _format_ : 09                 |
-| `tawal`   | untuk mencari transaksi yang dibuat setelah tanggal tertentu     | _format_: 2023-09-23          |
-| `takhir`  | untuk mencari transaksi yang dibuat sebelum tanggal tertentu     | _format_: 2023-09-23          |
+| `bulan`   | untuk mencari transaksi yang dibuat pada bulan tertentu          | _format_ : 9                  |
+| `tawal`   | untuk mencari transaksi yang dibuat setelah tanggal tertentu     | _format_ : 2023-09-23          |
+| `takhir`  | untuk mencari transaksi yang dibuat sebelum tanggal tertentu     | _format_ : 2023-09-23          |
 
 - jumlah data = 1000 transaksi (rentang waktu antara 2020 - 2023)

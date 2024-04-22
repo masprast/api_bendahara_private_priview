@@ -29,6 +29,6 @@ API ini memiliki fungsi _query_ untuk menyaring informasi. _Query_ yang tersedia
 | `tawal`   | untuk mencari transaksi yang dibuat setelah tanggal tertentu     | _format_: 2023-09-23                             |
 | `takhir`  | untuk mencari transaksi yang dibuat sebelum tanggal tertentu     | _format_: 2023-09-23                             |
 
-- jumlah data = 1000 transaksi (rentang waktu antara 2020 - 2023)
+- jumlah data = 1000 transaksi (rentang waktu antara 2020 - 2024)
 
 * Note: GCP Free trial periode has ended

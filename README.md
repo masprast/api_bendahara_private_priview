@@ -1,14 +1,14 @@
 # API Transaksi Bendahara
 
-Repositori ini merupakan API untuk transaksi bendahara yang tersimpan di ~~GCP (_Google Cloud Platform_)~~ Heroku. Dan menggunakan MongoDB sebagai _database_-nya,yang juga tersimpan di _cloud_ dengan layanan [MongoDB Atlas]().
+Repositori ini merupakan API untuk transaksi bendahara yang tersimpan di ~~GCP (_Google Cloud Platform_)~~ ~~Heroku~~ AWS ECS. Dan menggunakan MongoDB sebagai _database_-nya,yang juga tersimpan di _cloud_ dengan layanan [MongoDB Atlas]().
 
-Klik link 👉 [demo API](https://bendahara-7a500c37faff.herokuapp.com/api/pengguna/1/transaksi) untuk mencoba API.
+Klik link 👉 [demo API](http://bendahara-load-balancer-1366339097.ap-southeast-3.elb.amazonaws.com/api/pengguna/1/transaksi) untuk mencoba API.
 
 ## Tech stack
 
 - NodeJS
 - ExpressJS
-- ~~GAE (Google App Engine)~~ Heroku
+- ~~GAE (Google App Engine)~~ ~~Heroku~~ AWS ECS
 - JWT
 - MongoDB Atlas
 

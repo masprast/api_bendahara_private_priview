@@ -1,4 +1,4 @@
-# API Transaksi Bendahara (private backend project)
+# API Transaksi Bendahara (private mock backend project)
 
 Repositori ini merupakan API untuk transaksi bendahara yang tersimpan di ~~**GCP** (_Google Cloud Platform_)~~ ~~**Heroku**~~ ~~**AWS ECS**~~ **railway.app**. Dan menggunakan MongoDB sebagai _database_-nya,yang juga tersimpan di _cloud_ dengan layanan [MongoDB Atlas]().
 
